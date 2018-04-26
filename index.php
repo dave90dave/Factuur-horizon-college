@@ -1,14 +1,13 @@
-<?php
-$aan = $_GET["aan"]
-$van = $_GET["van"]
-$totaalbedrag = $_GET["totaalbedrag"]
+ <html>
+<body>
 
-if (isset (submit))
-{
-?>
-<form method="post">
-<input name="aan">
-<input name="van">
-<input name="totaalbedrag">
-<input type="submit" name="submit">
+<form action="welcome.php" method="get">
+Name: <input type="text" name="name"><br>
+Adres: <input type="text" name="adres"><br>
+Stad: <input type="text" name="stad"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
 </form>
+
+</body>
+</html> 
